@@ -1,0 +1,14 @@
+{%extends 'base.html' %}
+
+{%block content%}
+        <h1>I am the menu_list.html</h1>
+
+    {% for ice in object_list %}
+    <div>
+        <h3>{{ice.flavor}}</h3>
+        <p>{{ice.available}}</p>
+        <datetime>{{ice.date_churned}}</datetime>
+        <p>{{ice.base}}</p>
+     </div>
+    {%endfor%}
+{%endblock content%}

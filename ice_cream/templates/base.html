@@ -1,0 +1,24 @@
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <title>What Are you Looking At</title>
+</head>
+<body>
+
+    <h1>I am the base.html</h1>
+    <header>
+
+                <span><a href="{% url 'home' %}">Menu</a></span>
+                <span><a href="{% url 'featured_menu_list' featured=True %}">Featured</a></span>
+                <span><a href="{% url 'available_menu_list' available='Weekly' %}">Weekly</a></span>
+                <span><a href="{% url 'available_menu_list' available='Seasonal' %}">Seasonal</a></span>
+                <span><a href="{% url 'flavor_new' %}">Add Flavor</a></span>
+
+
+    </header>
+        <div>
+            {% block content %} {% endblock content %}
+        </div>
+</body>
+</html>

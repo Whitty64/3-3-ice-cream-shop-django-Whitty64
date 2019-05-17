@@ -1,0 +1,14 @@
+<h1>here i am</h1>
+{% extends 'base.html' %}
+
+{%block content%}
+        <h1>I am the individual_list.html</h1>
+
+        <div>
+            <h3>{{menu.flavor}}</h3>
+            <p>{{menu.available}}</p>
+            <datetime>{{menu.date_churned}}</datetime>
+            <p>{{menu.base}}</p>
+            <img src="{{menu.model_pic}}">
+        </div>
+{%endblock content%}
