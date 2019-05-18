@@ -12,13 +12,11 @@ class MenuListView(ListView):
     template_name = 'menu_list.html'
     model = Menu
 
-    queryset = Menu.objects.filter(featured=True)
-
     def get_queryset(self):
         if 'available' in self.kwargs:
             return Menu.objects.filter(available=self.kwargs['available'])
         else:
-            return Menu.objects.all()
+            return Menu.objects.filter(featured=True)
 
 
 class NewIceCreateView(CreateView):

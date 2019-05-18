@@ -1,14 +1,19 @@
 {%extends 'base.html' %}
 
 {%block content%}
-        <h1>I am the menu_list.html</h1>
-
-    {% for ice in object_list %}
-    <div>
-        <h3>{{ice.flavor}}</h3>
-        <p>{{ice.available}}</p>
-        <datetime>{{ice.date_churned}}</datetime>
-        <p>{{ice.base}}</p>
-     </div>
-    {%endfor%}
+<div class="container">
+        <div class="row topmargin justify-content-center">
+        {% for ice in object_list %}
+        <div class="col-3 squaremenu">
+            <h3 class="flavorlink">{{ice.flavor}}</h3>
+                <div class="avail">
+                    <datetime>{{ice.date_churned}}</datetime>
+                    <span>: {{ice.available}}</span>
+                    <h5>{{ice.base}}</h5>
+                    <img class="imgposit" src="{{ice.model_pic}}">
+                </div>
+         </div>
+        {%endfor%}
+        </div>
+</div>
 {%endblock content%}

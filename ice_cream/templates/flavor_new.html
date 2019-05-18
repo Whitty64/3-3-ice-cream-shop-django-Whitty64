@@ -1,13 +1,11 @@
 {%extends 'base.html'%}
 
 {%block content%}
-
-<h1>New Flavor</h1>
-
-    <form action ='' method ='post'>{%csrf_token%}
-        {{form.as_p}}
-        <input type="submit" value="Add new Flavor Dude"/>
-    </form>
-
-
+<div class="newflavor">
+    <h1 class="textcenter">New Flavor</h1>
+        <form class="newform" action ='' method ='post'>{%csrf_token%}
+            {{form.as_p}}
+            <input class="" type="submit" value="Add new Flavor Dude"/>
+        </form>
+</div>
 {%endblock content%}

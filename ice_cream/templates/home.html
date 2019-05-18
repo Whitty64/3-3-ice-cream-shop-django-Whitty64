@@ -1,10 +1,18 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<h1>I am the home.html</h1>
+    <div class="container">
+        <div class="row topmargin justify-content-center">
 
-    {% for menu in object_list %}
-        <h2><a href="{% url 'ice_cream_detail' menu.pk %}">{{menu.flavor}}</a></h2>
+            {% for menu in object_list %}
+                <div class="col-3 squarehome">
+                    <h4 class="flavorlink"><a class="flavorlink" href="{% url 'ice_cream_detail' menu.pk %}">{{menu.flavor}}</a></h4>
+                    <img class = "imgposit"src="{{menu.model_pic}}">
+                </div>
+                {% endfor %}
 
-    {% endfor %}
+        </div>
+    </div>
+
 {% endblock content %}
+
