@@ -1,7 +1,7 @@
 {% load static %}
 <html>
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Acme|Nosifer|Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Nosifer|Permanent+Marker|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
@@ -16,6 +16,14 @@
                 <span><a class="toplink" href="{% url 'available_menu_list' available='Weekly' %}"><i class="fas fa-ice-cream"></i> Weekly</a></span>
                 <span><a class="toplink" href="{% url 'available_menu_list' available='Seasonal' %}"><i class="fas fa-ice-cream"></i> Seasonal</a></span>
                 <span><a class="toplink" href="{% url 'flavor_new' %}"><i class="fas fa-ice-cream"></i> Add Flavor</a></span>
+                <span class="icons">
+                    <span>Follow Us On Social Media</span>
+                    <span><a href="#"><i class="fab fa-twitter-square"></i></a></span>
+                    <span><a href="#"><i class="fab fa-facebook-square"></i></a></span>
+                    <span><a href="#"><i class="fab fa-instagram"></i></a></span>
+                    <span><a href="#"><i class="fas fa-map-marker-alt"></i></a></span>
+                </span>
+
         </nav>
     </header>
     <h1 class="utter">Utterly Delicious<br> Ice Cream</h1>
@@ -24,13 +32,7 @@
         </div>
     <footer class="footer">
         <div class="posrel">
-        <div class="icons">
-            <span>Follow Us On Social Media</span>
-            <span><i class="fab fa-twitter-square"></i></span>
-            <span><i class="fab fa-facebook-square"></i></span>
-            <span><i class="fab fa-instagram"></i></span>
-            <span><i class="fas fa-map-marker-alt"></i></span>
-        </div>
+            <span>© 2019 Copyright: Taylor Whitfield</span>
         </div>
     </footer>
 </main>

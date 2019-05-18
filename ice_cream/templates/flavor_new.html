@@ -1,7 +1,7 @@
 {%extends 'base.html'%}
 
 {%block content%}
-<div class="newflavor">
+<div class="squarenewflavor">
     <h1 class="textcenter">New Flavor</h1>
         <form class="newform" action ='' method ='post'>{%csrf_token%}
             {{form.as_p}}

@@ -5,7 +5,7 @@
         <div class="row topmargin justify-content-center">
         {% for ice in object_list %}
         <div class="col-3 squaremenu">
-            <h3 class="flavorlink">{{ice.flavor}}</h3>
+            <h3 class="flavorlink"><a class="flavorlink" href="{% url 'ice_cream_detail' ice.pk %}">{{ice.flavor}}</a></h3>
                 <div class="avail">
                     <datetime>{{ice.date_churned}}</datetime>
                     <span>: {{ice.available}}</span>

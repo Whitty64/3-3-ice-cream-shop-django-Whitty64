@@ -4,9 +4,13 @@
         <div class="squaredetail">
             <h1 class="flavorlink">{{menu.flavor}}</h1>
             <div class="avail">
-            <datetime>{{menu.date_churned}}</datetime>
-            <p>{{menu.available}}</p>
-            <p>{{menu.base}}</p>
+                <div class="detailinfo">
+                <span>{{menu.available}}/</span>
+                <datetime>{{menu.date_churned}}</datetime>
+                <span>({{menu.base}})</span>
+                </div>
+                <img src="{{menu.model_pic}}">
+                <p class="description"><i class="fas fa-ellipsis-h"></i> {{menu.description}}</p>
             </div>
         </div>
 {%endblock content%}

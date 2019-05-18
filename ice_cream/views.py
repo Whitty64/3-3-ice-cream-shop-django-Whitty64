@@ -22,7 +22,7 @@ class MenuListView(ListView):
 class NewIceCreateView(CreateView):
     model = Menu
     template_name = 'flavor_new.html'
-    fields = ['flavor', 'base', 'available', 'featured', 'date_churned']
+    fields = ['flavor', 'base', 'model_pic', 'description']
 
 
 class IceCreamDetailView(DetailView):

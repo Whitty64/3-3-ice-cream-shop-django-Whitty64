@@ -21,7 +21,7 @@ class Menu(models.Model):
         base = models.CharField(max_length=75, choices=BASE)
         featured = models.BooleanField(default=False)
         model_pic = models.CharField(max_length=255)
-
+        description = models.TextField()
         def __str__(self):
             return self.flavor[:20]
 

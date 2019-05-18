@@ -9,11 +9,11 @@ body {
     height: 100%;
 }
 .main {
- min-height: 100vh; /* will cover the 100% of viewport */
- overflow: hidden;
- display: block;
- position: relative;
- padding-bottom: 100px; /* height of your footer */
+     min-height: 100vh; /* will cover the 100% of viewport */
+     overflow: hidden;
+     display: block;
+     position: relative;
+     padding-bottom: 100px; /* height of your footer */
 }
 
 img {
@@ -21,10 +21,12 @@ img {
     width:200px;
     height:200px;
 }
+a:hover{
+    color: #C38653;
+}
 
 .navbg {
-    background-color: rgba(255,255,255,.6);
-    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255,.8);
     justify-content: space-around;
 }
 
@@ -33,6 +35,15 @@ img {
     color: slategrey;
     font-family: 'Acme', sans-serif;
     font-size: 20px;
+}
+.icons {
+    float: right;
+    font-family: 'Acme', sans-serif;
+    color: slategrey;
+}
+.icons i {
+    margin: 0 3px 0 3px;
+    color: #C38653;
 }
 
 .flavorlink {
@@ -59,6 +70,7 @@ img {
     width: 250px;
     opacity: .5%;
     position: relative;
+    transition: all .2s ease-in-out;
 }
 .squaremenu {
     background-color: rgba(0, 0, 0, 0.5);
@@ -77,16 +89,24 @@ img {
     border-radius: 5px;
     margin: 0 auto;
     margin-top: 50px;
-    height: 400px;
     width: 400px;
     opacity: .5%;
     padding:20px;
 }
+.detailinfo {
+    margin-bottom: 15px;
+}
+.description {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+}
+
 .avail {
     color:#fafafa;
     font-family: 'Acme', sans-serif;
     font-size: 20px;
     padding-left: 25px;
+    padding-right: 25px;
 }
 .imgposit {
     position: absolute;
@@ -97,12 +117,12 @@ img {
     right: 0;
 }
 
-.newflavor {
+.squarenewflavor {
     font-family: 'Acme', sans-serif;
     color:#fafafa;
     margin: 0 auto;
-    width:500px;
-    height: 400px;
+    width:550px;
+    height: 700px;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: grayscale(1) contrast(3) blur(1px);
     border-radius: 5px;
@@ -117,15 +137,20 @@ img {
 }
 
 .footer {
-    font-family: 'Acme', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    text-align: center;
     background-color: #808C9C;
     color:#fafafa;
     position: absolute;
     bottom: 0;
     width:100%;
 }
-.icons {
-    text-align: right;
+
+/**************Hover Effects*/
+
+.squarehome:hover {
+    transform: scale(1.1);
 }
+
 
