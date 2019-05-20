@@ -1,4 +1,6 @@
 from django.views.generic import ListView, CreateView, DetailView
+from django.views.generic.edit import UpdateView, DeleteView
+from django.urls import reverse_lazy
 from .models import Menu
 
 
@@ -28,6 +30,15 @@ class NewIceCreateView(CreateView):
 class IceCreamDetailView(DetailView):
     model = Menu
     template_name = 'ice_cream_detail.html'
+
+class IceCreamDeleteView(DeleteView):
+    model = Menu
+    template_name = 'delete.html'
+    success_url = reverse_lazy('featured_menu_list')
+
+
+
+
 
 
 

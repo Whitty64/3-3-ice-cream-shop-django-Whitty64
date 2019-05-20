@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     <title>What Are you Looking At</title>
 </head>
+
+
 <body>
-<main class="main">
-    <header>
+<header>
         <nav class="navbar fixed-top navbar-dark navbg">
                 <span><a class="toplink" href="{% url 'home' %}"><i class="fas fa-ice-cream"></i> Menu</a></span>
                 <span><a class="toplink" href="{% url 'featured_menu_list' %}"><i class="fas fa-ice-cream"></i> Featured</a></span>
                 <span><a class="toplink" href="{% url 'available_menu_list' available='Weekly' %}"><i class="fas fa-ice-cream"></i> Weekly</a></span>
                 <span><a class="toplink" href="{% url 'available_menu_list' available='Seasonal' %}"><i class="fas fa-ice-cream"></i> Seasonal</a></span>
                 <span><a class="toplink" href="{% url 'flavor_new' %}"><i class="fas fa-ice-cream"></i> Add Flavor</a></span>
+
                 <span class="icons">
                     <span>Follow Us On Social Media</span>
                     <span><a href="#"><i class="fab fa-twitter-square"></i></a></span>
@@ -26,6 +28,9 @@
 
         </nav>
     </header>
+
+<main class="main">
+
     <h1 class="utter">Utterly Delicious<br> Ice Cream</h1>
         <div>
             {% block content %} {% endblock content %}
@@ -36,6 +41,7 @@
         </div>
     </footer>
 </main>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

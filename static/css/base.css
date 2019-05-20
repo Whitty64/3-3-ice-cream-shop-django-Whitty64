@@ -7,19 +7,21 @@ body {
     background-position: center;
     position: relative;
     height: 100%;
+    margin: 0;
+
 }
 .main {
-     min-height: 100vh; /* will cover the 100% of viewport */
-     overflow: hidden;
-     display: block;
-     position: relative;
-     padding-bottom: 100px; /* height of your footer */
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of your footer */
 }
 
 img {
     object-fit: cover;
-    width:200px;
-    height:200px;
+    width:175px;
+    height:175px;
 }
 a:hover{
     color: #C38653;
@@ -61,13 +63,14 @@ a:hover{
     color: #808C9C;
 
 }
+
 .squarehome {
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: grayscale(1) contrast(3) blur(1px);
     border-radius: 5px;
     margin: 10px;
-    height: 300px;
-    width: 250px;
+    height: 275px;
+    width: 225px;
     opacity: .5%;
     position: relative;
     transition: all .2s ease-in-out;
@@ -141,6 +144,7 @@ a:hover{
     font-size: 20px;
     text-align: center;
     background-color: #808C9C;
+    opacity: .8;
     color:#fafafa;
     position: absolute;
     bottom: 0;
@@ -153,4 +157,11 @@ a:hover{
     transform: scale(1.1);
 }
 
+
+
+
+
+/**********************New Nav Bar*/
+
+/* Navigation Menu - Background */
 

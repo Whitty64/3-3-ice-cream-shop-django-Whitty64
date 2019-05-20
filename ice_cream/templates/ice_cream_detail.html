@@ -13,4 +13,7 @@
                 <p class="description"><i class="fas fa-ellipsis-h"></i> {{menu.description}}</p>
             </div>
         </div>
+
+        <span><a class="toplink" href="{% url 'delete_flavor' menu.pk %}">Edit</a></span>
+
 {%endblock content%}

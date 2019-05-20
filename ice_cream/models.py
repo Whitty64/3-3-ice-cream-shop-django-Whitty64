@@ -1,6 +1,7 @@
 from django.db import models
 from django.urls import reverse
-
+from django.utils import timezone
+import datetime
 
 # Create your models here.
 class Menu(models.Model):
@@ -16,8 +17,8 @@ class Menu(models.Model):
         AVAILABLE = [(DAILY, 'Daily'), (WEEKLY, 'Weekly'), (SEASONAL, 'Seasonal')]
 
         flavor = models.CharField(max_length=100)
-        date_churned = models.DateField()
-        available = models.CharField(max_length=75, choices=AVAILABLE)
+        date_churned = models.DateField(default=timezone.now)
+        available = models.CharField(max_length=75, choices=AVAILABLE, default='')
         base = models.CharField(max_length=75, choices=BASE)
         featured = models.BooleanField(default=False)
         model_pic = models.CharField(max_length=255)
