@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efb2caff-c831-4856-83f9-25cdb3404ff2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ice_cream/templates/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ice_cream/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ice_cream/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ice_cream/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ice_cream/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/ice_cream/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ice_cream/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/ice_cream/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ice_cream/templates/ice_cream_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/ice_cream/templates/ice_cream_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ice_cream/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ice_cream/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ice_cream/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ice_cream/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
-    </list>
+    <list default="true" id="efb2caff-c831-4856-83f9-25cdb3404ff2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="27" column="63" lean-forward="true" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+            <state relative-caret-position="269">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -155,10 +139,10 @@
         <option value="$PROJECT_DIR$/ice_cream/templates/base.html" />
         <option value="$PROJECT_DIR$/ice_cream/templates/ice_cream_detail.html" />
         <option value="$PROJECT_DIR$/ice_cream/templates/delete.html" />
-        <option value="$PROJECT_DIR$/conf/settings.py" />
         <option value="$PROJECT_DIR$/Pipfile" />
         <option value="$PROJECT_DIR$/ice_cream/views.py" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/conf/settings.py" />
       </list>
     </option>
   </component>
@@ -233,12 +217,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557943429710</updated>
-      <workItem from="1557943433270" duration="103420000" />
+      <workItem from="1557943433270" duration="103731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103420000" />
+    <option name="totallyTimeSpent" value="103731000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -250,7 +234,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="869" y="61" width="995" height="782" extended-state="0" />
+    <frame x="547" y="100" width="995" height="782" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -494,8 +478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="27" column="63" lean-forward="true" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+        <state relative-caret-position="269">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
