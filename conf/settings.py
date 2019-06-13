@@ -25,14 +25,14 @@ SECRET_KEY = 'ki_ipm!nj_$rl6y_rk0@j6n6i5&z8@2o&g%fri@-#$fn%(uqkb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ice-cream-shop-django-whitt64.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['ice-cream-shop-django-whitt64.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
-    'django.contrib.auth',
+    'django.contrib.auth',  # provides us with the default user object
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',

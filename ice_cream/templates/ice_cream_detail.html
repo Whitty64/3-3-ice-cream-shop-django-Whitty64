@@ -11,9 +11,11 @@
                 </div>
                 <img src="{{menu.model_pic}}">
                 <p class="description"><i class="fas fa-ellipsis-h"></i> {{menu.description}}</p>
+                <span><a class="flavorlink" href="{% url 'edit_flavor' menu.pk %}">Edit Flavor</a></span>
+
+
             </div>
         </div>
 
-        <span><a class="toplink" href="{% url 'delete_flavor' menu.pk %}">Edit</a></span>
 
 {%endblock content%}

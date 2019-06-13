@@ -131,6 +131,18 @@ a:hover{
     border-radius: 5px;
     margin-top: 50px;
 }
+.squareeditflavor{
+    font-family: 'Acme', sans-serif;
+    color:#fafafa;
+    margin: 0 auto;
+    width:550px;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: grayscale(1) contrast(3) blur(1px);
+    border-radius: 5px;
+    margin-top: 50px;
+
+}
 .textcenter {
     text-align: center;
 }
@@ -138,7 +150,6 @@ a:hover{
     font-size: 20px;
     padding-left: 15%;
 }
-
 .footer {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;

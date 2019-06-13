@@ -13,7 +13,7 @@ class Menu(models.Model):
         SEASONAL = 'Seasonal'
 
 
-        BASE = [(VANILLA, 'Vanilla'), (CHOCOLATE, 'Chocolate')]
+        BASE = [(VANILLA, 'Vanilla'), (CHOCOLATE, 'C`hocolate')]
         AVAILABLE = [(DAILY, 'Daily'), (WEEKLY, 'Weekly'), (SEASONAL, 'Seasonal')]
 
         flavor = models.CharField(max_length=100)

@@ -34,7 +34,14 @@ class IceCreamDetailView(DetailView):
 class IceCreamDeleteView(DeleteView):
     model = Menu
     template_name = 'delete.html'
-    success_url = reverse_lazy('featured_menu_list')
+    success_url = reverse_lazy('home')
+
+class IceCreamUpdateView(UpdateView):
+    model = Menu
+    template_name = 'edit.html'
+    success_url = reverse_lazy('home')
+    fields = ['flavor', 'base', 'model_pic', 'description', 'date_churned', 'available']
+
 
 
 
